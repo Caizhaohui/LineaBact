@@ -1,0 +1,16 @@
+/target
+
+# Local agent and editor state
+.kilo/
+
+# Generated benchmark outputs and local logs
+/benchmarks/generated/
+/logs/
+slurm-*.out
+
+# Local datasets and third-party reference archives
+/rawdata/
+/reference_tools/
+
+# Common temporary files
+*.tmp
